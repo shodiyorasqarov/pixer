@@ -1,0 +1,419 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 130px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-1{
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* ----HEADER---- */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.header-main{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    margin-left: auto;
+}
+.navbar-items{
+    display: flex;
+    margin: 0;
+}
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+    padding-bottom: 16px;
+    padding-top: 15px ;
+    
+}
+.nav-item:hover{
+    border-bottom: 3px solid black;
+}
+.nav-item:active{
+    background: rgba(25, 25, 25, 0.7);
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:active{
+    color: white;
+}
+.nav-item-plus{
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-item-plus a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+    background-color: #00bafc;
+    border-radius: 5px;
+    border: 2px solid #00bafc;
+}
+.nav-item-plus a:hover{
+    color: #00bafc;
+    background-color: white;
+    border: 2px solid #00bafc;
+    box-sizing: content-box;
+}
+.nav-item-plus a:active{
+    background-color: #00bafc;
+    border-radius: 5px;
+    border: 2px solid #00bafc;
+    opacity: 0.5;
+    color: white;
+}
+
+/* ----HEADER END---- */
+
+/* ----YOUTUBE SECTION---- */
+
+.youtube{
+    margin-bottom: 80px;
+}
+.youtube_main{
+    height: 300px;
+    display: flex;
+    
+}
+.youtube-text{
+    width: 500px;
+}
+.youtube-text__header{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.youtube-text__text{
+    font-size: 16px;
+    line-height: 24px;  
+    margin-bottom: 16px;
+}
+.youtube-text__link{
+    padding: 8px 16px;
+    line-height: 24px;
+    text-decoration: none;
+    background-color: #00bafc;
+    color: white;
+    border-radius: 5px;
+}
+.youtube-text__link:hover{
+    background: rgba(0, 186, 252, 0.8);
+}
+.youtube-text__link:active{
+    background: rgba(0, 186, 252, 0.6);
+    
+}
+.youtube-images{
+    position: relative;
+    margin-left: 340px;
+}
+.youtube-image{
+    position: absolute;
+    left: 100%;
+}
+.youtube-2{
+    position: absolute;
+    left: 160px;
+    top: 85px;
+}
+
+/* ----YOUTUBE SECTION END---- */
+
+/* ----XIZMATLAR SECTION---- */
+
+.xizmatlar-header{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.xizmatlar-text{
+    width: 750px;
+    margin: 0 auto;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.xizmatlar-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.x-box{
+    width: 320px;
+    height: 260px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.x-box:hover{
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+.x-box:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.x-box:nth-child(3){
+    margin-right: 0;
+}
+.x-box:nth-child(4){
+    margin-bottom:40px;
+}
+.x-box:nth-child(5){
+    margin-bottom:40px;
+}
+.x-box h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+.xizmatlar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+}
+.x-link-1{
+    text-decoration: none;
+    padding: 8px 16px;
+    line-height: 24px;
+    background-color: #00bafc;
+    color: white;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+.x-link-1:hover{
+    background: rgba(0, 186, 252, 0.8);
+}
+.x-link-1:active{
+    background: rgba(0, 186, 252, 0.6);
+}
+.x-link-2{
+    color: #00bafc;
+}
+/* ----XIZMATLAR SECTION END---- */
+
+/* ----BIZQNDAYISH SECTION---- */
+
+.bizqandayish-main h3{
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    margin-top: 56px;
+}
+.bizqandayish-main_link{
+    width: 200px;
+    margin: 0 auto;
+}
+.bizqandayish-main p{
+    width: 700px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+._list-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+._list-wrapper img{
+    width: 300px;
+    
+}
+._list-wrapper_main{
+    width: 500px;
+}
+._list-wrapper_main h4{
+    font-size: 20px;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 8px;
+}
+._list-wrapper_main p{
+    margin-left: -140px;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.bizqandayish-main_link{
+    width: 100px;
+}
+.-main__link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 200px;
+    padding: 9px 0px;
+    line-height: 24px;
+    background-color: #00bafc;
+    color: white;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+.-main__link:hover{
+    background: rgba(0, 186, 252, 0.8);
+}
+.-main__link:active{
+    background: rgba(0, 186, 252, 0.6);
+}
+/* ----BIZQNDAYISH SECTION END---- */
+
+
+/* ----BUYURTMA BERISH---- */
+
+.buyurtma{
+    height: 543px;
+    background-color: #00bafc;
+}
+.buyurtma h4{
+    color: white;
+    text-align: center;
+    padding-top: 56px;
+    font-size: 24px;
+    line-height: 130%;
+}
+.buyurtma p{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 24px;
+}
+.buyurtma-box{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* ----BUYURTMA BERISH END---- */
+
+/* ----BUYURTMA SECTION---- */
+
+.form {
+    text-align: center;
+    color: black;
+    margin-top: 24px;
+}
+input{
+    color: black;
+    width: 300px;
+    height: 56px;
+    background-color: #F3F3F3;
+    border:none;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+} 
+input:nth-child(1){
+    margin-top: 24px;
+}
+button{
+    text-align: center;
+    border: none;
+    background-color: #00bafc;
+    width: 167px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ----BUYURTMA SECTION END---- */
+
+/* ----FOOTER SECTION---- */
+footer{
+    display: flex;
+    background-color: black;
+    height: 338px;
+    
+}
+.footer-block{
+    width: 320px;
+    height: 120;
+    color: white;
+    margin: 56px 100px;
+
+}
+.footer-block1{
+    
+
+    width: 200px;
+    /* height: 24px; */
+    color: white;
+    margin: 56px 100px;
+
+}
+.footer-block2{  
+    width: 143px;
+    height: 26px;
+    color: white;
+    margin: 56px 142px;
+
+}
+.footee li{
+    display: flex;
+    width: 22px;
+    height: 23px;
+
+}
+.footee li p{
+    display: flex;
+    width: 22px;
+    height: 23px;
+
+}
+.footer-block1 a{
+    text-decoration: none;
+    color:white;
+    
+}
+ul{
+    list-style-type: none;
+}
+.footee li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footee img{
+    margin-right: 8px;
+}
+.footer-block1 h4{
+    width: 50px;
+    height: 0px;
+}
+.footer-block1{
+
+}
